@@ -1,3 +1,7 @@
+body {
+    overflow: scroll;
+}
+
 .campo-digitacao {
     font-size: 20px;
     height: 130px;
@@ -22,4 +26,38 @@
 
 .borda-vermelha {
     border: 5px solid red;
+}
+
+.placar {
+    display: none;
+}
+
+#erro {
+    color: red;
+    display: none;
+}
+
+#spinner {
+    display: none;
+}
+
+#frase-id {
+    width: 40px;
+}
+
+#botao-sync {
+    float: right;
+}
+
+.select-usuarios {
+    display: inline-block;
+}
+
+#usuarios {
+    display: block;
+}
+
+.selectize-input {
+    width: 150px;
+    vertical-align: middle;
 }
